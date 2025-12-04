@@ -17,9 +17,32 @@ body {
 
 .modal {
   background: white;
-  width: 480px;
+  width: 500px;
+  height: 208px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  /* ye */
+  display: flex;
+  
+}
+
+.cont{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  gap: 10px;
+}
+.one{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+.three{
+  margin-bottom: 5px;
+}
+.header{
+  font-weight: bolder;
 }
 
 .icon {
@@ -27,12 +50,14 @@ body {
   font-size: 26px;
   font-weight: 700;
   background: lavender;
-  width: 42px;
+  width:170px;
   height: 42px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+  box-sizing: border-box;
+  margin: 13px;
 }
 
 .close-button {
